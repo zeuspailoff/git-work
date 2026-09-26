@@ -3,5 +3,5 @@
 
 Documentación del repositorio colaborativo de la AE1.
 
-- [Portada del sitio](../index.html)
-- [Repositorio remoto](https://github.com/USUARIO/git-
+- [Portada del sitio](https://github.com/zeuspailoff/git-work/blob/main/index.html)
+- [Repositorio remoto](https://github.com/zeuspailoff/git-work)
