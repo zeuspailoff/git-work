@@ -1,0 +1,40 @@
+$ git log --oneline --graph --all
+* 52cf5ef añade sombra al boton principal y cierra issue #2-maplica text shadow al boton secundario. closes#2
+*   9e3bd13 Merge remote-tracking branch 'origin/main'
+|\  
+| *   94b1fc7 Merge pull request #4 from zeuspailoff/cool-colors
+| |\  
+* | \   7e83c5f se resuelve el conflicto de cover.css-mfusiona la rama cool-clors conservando el color darkgreen
+|\ \ \  
+| | |/  
+| |/|   
+| * | 8207250 cambio el color principal del botos a verde oscuro-mpropuesta de color issue#2
+| |/  
+* / ef9eeca Cambio el color del boton a purple-mmejora contraste del boton segun issue #2
+|/  
+*   a23ce98 Merge pull request #2 from zeuspailoff/custom-text close #1
+|\  
+| * 9793587 cambio titulo y slogan
+| * 87f6285 se actualiza el footer
+| * 6d740da se actualiza el footer
+| * 05b42a0 Personaliza la portada para la startup
+|/  
+* 3bfc434 se corrigen los links de mkdocs
+* 4c356bd corregimos error al subir documentacion
+* 5417d99 Añade documentación con MkDocs e integración continua
+* edd0185 Añade la página de la startup y su hoja de estilos
+* 42c8915 Initial commit
+
+$ git remote -v
+espejo	git@github.com:zeuspailoff/git-work-espejo.git (fetch)
+espejo	git@github.com:zeuspailoff/git-work-espejo.git (push)
+origin	git@github.com:zeuspailoff/git-work.git (fetch)
+origin	git@github.com:zeuspailoff/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+Abraham Díaz <114292541+zeuspailoff@users.noreply.github.com>
+Abraham Diaz <228.abraham.diaz@gmail.com>
+juan user2 <correojuan@user2.com>
